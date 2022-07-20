@@ -23,8 +23,7 @@ const GithubProvider:React.FC<{}> = ({ children } : { children?: React.ReactNode
 	const [repos, setRepos] = useState(mockRepos);
 	const [followers, setFollowers] = useState(mockFollowers);
 	//request loading
-	const [requests, setRequests] = useState<number | null>(null);
-	setRequests(0);
+	const [requests, setRequests] = useState(0);
 
 	const searchGithubUser = async (user: string) => {
 		const response = await axios
