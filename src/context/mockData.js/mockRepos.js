@@ -1,4 +1,4 @@
-export default [
+const mockRepos = [
 	{
 	  "id": 100111255,
 	  "node_id": "MDEwOlJlcG9zaXRvcnkxMDAxMTEyNTU=",
@@ -3035,4 +3035,5 @@ export default [
 	  "watchers": 0,
 	  "default_branch": "master"
 	}
-  ]
+]
+export default mockRepos;

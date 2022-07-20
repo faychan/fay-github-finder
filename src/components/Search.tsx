@@ -108,15 +108,3 @@ const Wrapper = styled.div`
 		font-weight: 400;
 	}
 `;
-const ErrorWrapper = styled.article`
-	position: absolute;
-	width: 90vw;
-	top: 0;
-	left: 0;
-	transform: translateY(-100%);
-	text-transform: capitalize;
-	p {
-		color: red;
-		letter-spacing: var(--spacing);
-	}
-`;

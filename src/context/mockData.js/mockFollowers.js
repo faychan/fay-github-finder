@@ -1,4 +1,4 @@
-export default [
+const mockFollowers = [
   {
     "login": "yoesuv",
     "id": 7220115,
@@ -80,3 +80,5 @@ export default [
     "site_admin": false
   }
 ];
+
+export default mockFollowers;
